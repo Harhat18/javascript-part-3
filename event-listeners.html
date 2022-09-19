@@ -71,17 +71,17 @@
         }
 
 
-        // document.querySelector("#btnClear").addEventListener("click", function(event) {
-        //     console.log("click event: clear");
+        document.querySelector("#btnClear").addEventListener("click", function(event) {
+            console.log("click event: clear");
 
-        //     event.preventDefault();
-        // });
+            event.preventDefault();
+        });
 
 
         document.querySelector("#btnAddNewTask").addEventListener("click", newTask);
 
         function newTask(event) {
-            // console.log(event.target);
+            console.log(event.target);
             event.target.classList.add("btn-lg");
 
             event.preventDefault();
