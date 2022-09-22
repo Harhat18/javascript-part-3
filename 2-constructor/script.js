@@ -3,7 +3,6 @@
 
 // Sınıf, Constructor => nesne * 30
 // ES5, ES6, ES7
-
 function Soru(soruMetni, cevapSecenekleri, dogruCevap) {
     this.soruMetni = soruMetni;
     this.cevapSecenekleri = cevapSecenekleri;
@@ -23,7 +22,15 @@ let sorular = [
     new Soru("Hangisi javascript paket yönetim uygulasıdır?", { a: "Node.js", b: "Typescript", c: "Npm" }, "c")
 ]
 
+// console.log(sorular[0].soruMetni);
+
+// for(let s of sorular) {
+//     console.log(s.soruMetni)}
+
 console.log(soru1.soruMetni);
 console.log(soru1.dogruCevap);
 console.log(soru1.cevabiKontrolEt("c"));
 console.log(soru2.cevabiKontrolEt("a"));
+
+// console.log(soru2.soruMetni);
+// console.log(soru2.dogruCevap);
